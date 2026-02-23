@@ -3,7 +3,7 @@ name: build-api
 on:
   push:
     branches:
-      - "main"
+      - "master"
     paths:
       - 'DockerCourseApi/**'
   workflow_dispatch:

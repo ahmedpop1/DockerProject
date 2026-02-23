@@ -3,7 +3,7 @@ name: build-frontend
 on:
   push:
     branches:
-      - "main"
+      - "master"
     paths:
       - 'DockerCourseFrontend/**'
   workflow_dispatch:
